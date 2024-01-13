@@ -1,7 +1,7 @@
 /* место для вашего кода */
 header {
     margin: 0 auto;
-    padding: 92px 57px 96px 24px;
+    padding: 99px 57px 96px 27px;
     display: flex;
     max-width: 1052px;
     align-items: center;
@@ -92,7 +92,6 @@ address div p {
 }
 
 h1 {
-    height: 355px;
     max-width: 1000px;
     display: flex;
     flex-direction: column;
@@ -122,7 +121,7 @@ h1, .cover__title__inherit {
 }
 
 .cover div {
-    padding: 135px 0 0;
+    padding: 103px 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -172,8 +171,13 @@ h2 {
 .lots ul li {
     list-style: none;
     width: 334px;
-    height: 563px;
+    max-height: 563px;
     position: relative;
+    cursor: pointer;
+}
+
+.card {
+    text-decoration: none;
 }
 
 .lots ul li:nth-child(1) {
@@ -220,14 +224,15 @@ h2 {
     font-size: 20px;
     font-weight: 400;
     line-height: 120%; /* 24px */
+    text-decoration: none;
 }
 
-.link__subtitle {
+.link__subtitle, .link__subtitle a {
     color: #000;
     font-size: 20px;
     font-weight: 400;
     padding-top: 30px;
-    padding-left: 40px;
+    padding-left: 17px;
 }
 
 .logo__black {
@@ -287,18 +292,21 @@ footer {
     padding: 180px 50px 88px 50px;
 }
 
-footer ul {
+footer .footer__menu {
+    padding: 6px 0 0 39px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-footer ul li, a {
+footer .footer__menu li, a {
     list-style: none;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-footer ul li:nth-child(1) a {
+footer .footer__menu li:nth-child(1) a {
     text-decoration: none;
 }
 
