@@ -87,8 +87,8 @@
 }
 
 .aligned-text_right {
-    text-align: end;
-    transform: translate(30px, -20px);  
+  text-align: end;
+  transform: translate(30px, -20px);
 }
 
 .cover__title {
@@ -308,9 +308,6 @@
   list-style: none;
   font-size: 18px;
   font-weight: 400;
-}
-
-.footer__menu-link_active {
   text-decoration: none;
 }
 
