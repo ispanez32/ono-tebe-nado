@@ -31,11 +31,11 @@
 .address .header__address {
   display: flex;
   flex-direction: column;
+  font-weight: 400;
 }
 
 .address a {
   font-size: 18px;
-  font-weight: 400;
   line-height: 24.3px; /* 135% */
   letter-spacing: 0.18px;
   border-bottom: 1px solid;
@@ -45,7 +45,6 @@
 
 .address p {
   font-size: 18px;
-  font-weight: 400;
   line-height: 24.3px; /* 135% */
   width: 208px;
   font-style: normal;
@@ -149,7 +148,7 @@
 }
 
 .bet-button {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   padding: 12px 32px;
   text-align: center;
   font-size: 22px;
@@ -191,15 +190,15 @@
   text-decoration: none;
 }
 
-.lots__card-list-item:nth-child(1) {
+.card-film {
   background: url(../images/card-lot-01.jpg) center;
 }
 
-.lots__card-list-item:nth-child(2) {
+.card-book {
   background: url(../images/card-lot-02.jpg) center;
 }
 
-.lots__card-list-item:nth-child(3) {
+.card-picture {
   background: url(../images/card-lot-03.jpg) center;
 }
 
@@ -302,6 +301,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  list-style: circle;
 }
 
 .footer__menu-link_active {
