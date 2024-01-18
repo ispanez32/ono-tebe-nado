@@ -301,11 +301,10 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  list-style: circle;
+  list-style: none;
 }
 
 .footer__menu-link_active {
-  list-style: none;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
